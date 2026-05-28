@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- NAV -->
+    <header>
+      <div class="logo">Vũ Hoàng</div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Hello, I'm <span>Developer</span></h1>
+      <p>I build modern, clean and high-performance web experiences.</p>
+      <button onclick="scrollToSection('about')">Learn More</button>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <div class="card">
+        <p>
+          I am a passionate developer focused on creating elegant, fast and
+          user-friendly web applications. I love clean design, Apple-style UI
+          and modern technologies.
+        </p>
+      </div>
+
+      <div class="profile-image">
+        <img src="./images/anhlo.jpg" alt="Profile" />
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+
+      <div class="grid">
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">React</div>
+        <div class="skill-card">Git</div>
+        <div class="skill-card">SQL</div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+
+      <div class="contact-box">
+        <a href="mailto:mrtinohi@gmail.com" class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          Email
+        </a>
+
+        <a
+          href="https://github.com/mrtinohi"
+          target="_blank"
+          class="contact-item"
+        >
+          <i class="fa-brands fa-github"></i>
+          GitHub
+        </a>
+
+        <a
+          href="https://linkedin.com/in/yourname"
+          target="_blank"
+          class="contact-item"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+          LinkedIn
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Hoang Cat Vu</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
